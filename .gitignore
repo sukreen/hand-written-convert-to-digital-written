@@ -1,0 +1,47 @@
+# -----------------------------
+# Python cache and compiled files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual environment
+# -----------------------------
+myenv/
+venv/
+ENV/
+env/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Output files
+# -----------------------------
+processed_images/
+ocr_results.xlsx
+ocr_summary.xlsx
+*.jpg
+*.png
+
+# -----------------------------
+# IDE/editor files
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------
+# Tesseract/other temporary files
+# -----------------------------
+*.tmp
